@@ -1,7 +1,7 @@
 # forestHES
     A R package for National forest health evaluation system at the forest stand level in China
 # Introduction
-    Assessing forest ecosystem health is an effective way for forest resource management (Zhang et al. 2014). In the 1990s, 
+Assessing forest ecosystem health is an effective way for forest resource management (Zhang et al. 2014). In the 1990s, 
   scholars started to monitor and assess the forest health condition, and established a number of specific forest health 
   evaluation systems in the worldwide (Ferretti 1997; Kolb et al. 1994). In China, forest health evaluations have been 
   reported since the 2000s. However, there remains great difficulty in accurate forest health evaluation due to the 
@@ -14,6 +14,7 @@
   ZZ.2016).
     The foestHES package can easily relize the above forest health evaluation process, and effectively assess and management
   forest resources. 
+    
 # References: 
   Ferretti M. 1997. Forest Health Assessment and Monitoring – Issues for Consideration. Environmental Monitoring and Assessment
   48:45-72. 10.1023/A:1005748702893.\
