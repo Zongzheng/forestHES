@@ -1,9 +1,0 @@
-Package: forestHES
-Type: Package
-Title: A package for national forest health evaluation system at the forest stand level in China
-Version: 0.1
-Date: 2016-05-14
-Author: Zongzheng Chai
-Maintainer: Zongzheng Chai <chaizz@126.com>
-Description: National forest health evaluation system at the forest stand level in China
-License: GPL-2
