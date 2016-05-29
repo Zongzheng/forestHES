@@ -173,6 +173,16 @@ tree.singlefhes<-fhes(c1=0.67,c2=1.89,c3=2.04,c4=4,c5=2.04,c6=1,c7=0.3,
                c20=21.38,c21=91.67)
 tree.singlefhes
 
+##Assigned the threshold of some variables, according to specific
+##realistic condition or research contents
+tree.spefhes<-fhes(c1=0.67,c2=1.89,c3=2.04,c4=4,c5=2.04,c6=1,c7=0.3,
+               c8=3.4839,c9=0.75,c10=0.15,c11=0,c12=0.75,c13=0.35,
+               c14=2500,c15=53,c16=1.56,c17=5.49,c18=34.03,c19=2.05,
+               c20=21.38,c21=91.67,
+               L_18=15,U_18=90,L_19=2,U_19=14,
+               L_20=8,U_20=40,L_21=60,U_21=120)
+tree.spefhes
+
 ##forest health evaluation for multiple sample plot
 tree.multiplefhes<-fhes(c1=c(0.67,0,0.68),c2=c(1.89,1.33,1.79),c3=c(2.04,1.91,2.19),
                c4=c(4,3,4),c5=c(2.04,1.47,2.19),c6=c(1,0,1),c7=c(0.3,0.95,0.9),
