@@ -2,7 +2,7 @@
 \alias{forestHES-package}
 \alias{forestHES}
 \docType{package}
-\title{The national forest health evaluation system}
+\title{Forest health evaluation system at the forest stand level in China}
 \description{
 Assessing forest ecosystem health is an effective way for forest resource
 management.Zhang & Lei (2014) proposed and developed a national forest health evaluation system at the forest stand level using analytic hierarchy process (AHP), has a high application value and practical significance.The R packge concentrates
