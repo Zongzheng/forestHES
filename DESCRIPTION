@@ -1,22 +1,14 @@
 Package: forestHES
 Type: Package
 Title: Forest health evaluation system at the forest stand level in China
-Version: 0.1
-Date: 2016-05-14
+Version: 0.1.0
 Author: Zongzheng Chai
 Maintainer: Zongzheng Chai <chaizz@126.com>
-URL: http://www.forest-soil.net/article-43-88.html
 Description: Assessing forest ecosystem health is an effective way for forest
     resource management.Zhang & Lei (2014) proposed and developed a national forest
     health evaluation system at the forest stand level using analytic hierarchy
     process (AHP), has a high application value and practical significance. The
     package can effectively and easily relize the total assessment process, and help
     foresters to further assess and management forest resources.
-References: Zhang HR, and Lei XD. 2014. Health management techniques for typical
-    forest types. Beijing: Publishing house of forestry, China.
 License: GPL-2
 LazyData: TRUE
-RoxygenNote: 5.0.1
-Suggests: knitr,
-    rmarkdown
-VignetteBuilder: knitr

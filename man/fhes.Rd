@@ -7,7 +7,12 @@ The national forest health evaluation system
 Zhang & Lei (2014) proposed and developed a national forest health evaluation system at the forest stand level using analytic hierarchy process (AHP), has a high application value and practical significance.
 }
 \usage{
-fhes(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20, c21, L_8 = 3.2, U_8 = 6.4, L_15 = 30, U_15 = 60, L_16 = 0.8, U_16 = 1.3, O1_16 = 1.15, O2_16 = 1.25, L_17 = 5, U_17 = 8.5, O1_17 = 6.5, O2_17 = 7, L_18 = 10, U_18 = 80, L_19 = 1.49, U_19 = 13.19, L_20 = 5, U_20 = 30, L_21 = 80, U_21 = 200)
+fhes(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14,
+c15, c16, c17, c18, c19, c20, c21, L_8 = 3.2, U_8 = 6.4,
+L_15 = 30, U_15 = 60, L_16 = 0.8, U_16 = 1.3, O1_16 = 1.15,
+O2_16 = 1.25, L_17 = 5, U_17 = 8.5, O1_17 = 6.5, O2_17 = 7,
+L_18 = 10, U_18 = 80, L_19 = 1.49, U_19 = 13.19, L_20 = 5,
+U_20 = 30, L_21 = 80, U_21 = 200)
 }
 \arguments{
   \item{c1}{

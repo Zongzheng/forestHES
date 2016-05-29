@@ -12,14 +12,12 @@ preabs(widedata)
 \arguments{
   \item{widedata}{A species matrix}
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
 \value{
 A present-absent matrix
 }
 \examples{
-herb.spematrix<-longtowide(longdata=herb,left="plotname",up="species",inner="abundance")
+herb.spematrix<-longtowide(longdata=herbdata,left="plot.id",up="spe.id",
+inner="abundance")
 herb.preabs<-preabs(herb.spematrix)
 herb.preabs
 }

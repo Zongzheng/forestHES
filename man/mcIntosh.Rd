@@ -32,23 +32,9 @@ Zongzheng Chai
 ######Calculation based on multiple plots
 ####convert raw data to species matrix
 ##raw data of multiple plots
-data(treedata)
-herb.spematrix<-longtowide(longdata=herb,left="plotname",up="species",inner="abundance")
-##compute diversity index for each plot
-library(vegan)
-#species richness index
-herb.richness <- specnumber(herb.spematrix)
-herb.richness
-#species shannon-Wienner index
-herb.shannon<-diversity(herb.spematrix,index="shannon")
-herb.shannon
-#species simpson index
-herb.simpson<-diversity(herb.spematrix,index="simpson")
-herb.simpson
-#species pielou index
-herb.pielou <- herb.shannon/log(herb.shannon)
-herb.pielou
-#species mcIntosh index
+data(herbdata)
+herb.spematrix<-longtowide(longdata=herbdata,left="plot.id",up="spe.id",inner="abundance")
+##compute species mcIntosh diversity index for each plot
 herb.mcIntosh<-mcIntosh(herb.spematrix)
 herb.mcIntosh
 }

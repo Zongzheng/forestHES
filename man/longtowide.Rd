@@ -7,7 +7,8 @@ A R function for converting  to long data to wide data
 Converting regular survey data (long data, similar to the treedata and herbdata in the package) to species matrix, and attributes matrix (wide data).
 }
 \usage{
-longtowide(longdata, left, up, inner = NULL, fun = rep("sum", length(inner)), freq = FALSE)
+longtowide(longdata, left, up, inner = NULL,
+fun = rep("sum", length(inner)), freq = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -40,7 +41,9 @@ Zongzheng Chai
 
 \examples{
 #####Example######
-##Following two example data with different subject, pineoakTree is for the base data of individual trees, and the herb data is for the base data of cluster.
+##Following two example data with different subject, pineoakTree
+##is for the base data of individual trees, and the herb data is for
+##the base data of cluster.
 data(treedata)
 data(herbdata)
 
@@ -72,11 +75,12 @@ herb.cover<-longtowide(longdata=herbdata,left="plot.id",up="spe.id",inner="cover
 herb.cover
 
 ##Multiple attribute matrix
-tree.multattr<-longtowide(longdata=treedata,left="plot.id",up="spe.id",inner=c("dbh.cm","ht.m"))
+tree.multattr<-longtowide(longdata=treedata,left="plot.id",up="spe.id",
+inner=c("dbh.cm","ht.m"))
 tree.multattr
-herb.multattr<-longtowide(longdata=herbdata,left="plot.id",up="spe.id",inner=c("coverage","abundance"))
+herb.multattr<-longtowide(longdata=herbdata,left="plot.id",up="spe.id",
+inner=c("coverage","abundance"))
 herb.multattr
-
 
 #######Calculation of Importance value (IV) for species######
 ####Calculation of Importance value (IV) for individual tree data
@@ -100,7 +104,8 @@ sortedtreeTIV
 ####Calculation of Importance value (IV) for clust herb data
 ##Covert long data to wide data
 herb.freq<-longtowide(longdata=herbdata,left="plot.id",up="spe.id",freq=TRUE)$frequency
-herb.dencover<-longtowide(longdata=herbdata,left="plot.id",up="spe.id",inner=c("abundance","coverage"))
+herb.dencover<-longtowide(longdata=herbdata,left="plot.id",up="spe.id",
+inner=c("abundance","coverage"))
 herb.density<-herb.dencover$abundance/100
 herb.coverage<-herb.dencover$coverage/100
 ##Compute the relative value
