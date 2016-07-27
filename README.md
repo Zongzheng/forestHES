@@ -22,7 +22,7 @@ The foestHES package can easily relize the above forest health evaluation proces
 
 ## Installation
 
-the development version from github:
+The development version from github:
 
 ```R
 # install.packages("devtools")
