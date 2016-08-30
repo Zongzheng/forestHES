@@ -1,6 +1,6 @@
 # forestHES
 
-A R package for national forest health evaluation system at the forest stand level in China
+An R package for national forest health evaluation system at the forest stand level in China
 
 # Introduction
 
